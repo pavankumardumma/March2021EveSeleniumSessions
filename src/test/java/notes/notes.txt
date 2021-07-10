@@ -1,0 +1,42 @@
+TestNG: Test New Generation
+Junit is also Unit Testing Framework
+Unit Testing Framework for Java
+used to write/maintain test cases
+Unit Test Cases, ST, SIT
+UI
+API
+Mobile App
+
+No link between Selenium and TestNG
+
+Maintain Test Cases
+Annotations
+Assertion Libraries
+Priorities
+HTML Report
+Depends on methods
+Expected Exceptions
+Invocation Count
+
+
+Test runner - xml file
+ - test classes
+ - threading - parallel execution
+ - cross browser testing
+
+TestNG + Selenium + FW ==> Hybrid FW
+
+
+1. Run as TestNG -> testng plug-in on eclipse/intellij
+2. TestNG Dependencies in pom.xml file - so that we can use testng methods/features
+
+Dependency in pom.xml
+ <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.14.3</version>
+ </dependency>
+
+
+Annotations must have methods
+@Test annotation - test cases

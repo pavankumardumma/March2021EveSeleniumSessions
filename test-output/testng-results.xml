@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Open Cart TestNG Sessions Suite" duration-ms="13835" started-at="2021-06-22T18:18:14Z" finished-at="2021-06-22T18:18:28Z">
+    <groups>
+    </groups>
+    <test name="Open Cart Login Page Test - Negative Test Data - chrome" duration-ms="13835" started-at="2021-06-22T18:18:14Z" finished-at="2021-06-22T18:18:28Z">
+      <class name="com.testngsessions.LoginPageNegativeTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.testngsessions.LoginPageNegativeTest@30c7da1e]" name="setUp" is-config="true" duration-ms="3955" started-at="2021-06-22T18:18:14Z" finished-at="2021-06-22T18:18:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.opencart.com/index.php?route=account/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.testngsessions.LoginPageNegativeTest@30c7da1e]" name="doLogin" duration-ms="2365" started-at="2021-06-22T18:18:18Z" data-provider="loginPageNegativeTestData" finished-at="2021-06-22T18:18:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.testngsessions.LoginPageNegativeTest@30c7da1e]" name="doLogin" duration-ms="1534" started-at="2021-06-22T18:18:21Z" data-provider="loginPageNegativeTestData" finished-at="2021-06-22T18:18:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.testngsessions.LoginPageNegativeTest@30c7da1e]" name="doLogin" duration-ms="1410" started-at="2021-06-22T18:18:22Z" data-provider="loginPageNegativeTestData" finished-at="2021-06-22T18:18:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.testngsessions.LoginPageNegativeTest@30c7da1e]" name="doLogin" duration-ms="1467" started-at="2021-06-22T18:18:23Z" data-provider="loginPageNegativeTestData" finished-at="2021-06-22T18:18:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngsessions.LoginPageNegativeTest@30c7da1e]" name="tearDown" is-config="true" duration-ms="3093" started-at="2021-06-22T18:18:25Z" finished-at="2021-06-22T18:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testngsessions.LoginPageNegativeTest -->
+    </test> <!-- Open Cart Login Page Test - Negative Test Data - chrome -->
+  </suite> <!-- Open Cart TestNG Sessions Suite -->
+</testng-results>

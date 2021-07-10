@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Open Cart TestNG Sessions Suite" verbose="4" thread-count="4" parallel="tests">
+
+    <test name="Open Cart Search Test - chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="https://demo.opencart.com/index.php?route=account/login"></parameter>
+        <classes>
+            <class name="com.testngsessions.DemoCartSearchTest"></class>
+        </classes>
+    </test>
+
+
+</suite>
